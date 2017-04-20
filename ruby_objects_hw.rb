@@ -1,8 +1,9 @@
 # creating a calculator that takes two values and applies a mathematical function
 class Calculator
-  def initialize
-    @num1= num1
+  def initialize(num1, num2)
+    @num1 = num1
     @num2 = num2
+  end
 
   def add()
     @num1 + @num2
@@ -54,5 +55,3 @@ end
 elev1 = Elevator.new(0)
 elev1.go_up()
 elev1.go_down()
-
-end
